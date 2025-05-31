@@ -5,14 +5,17 @@ This project implements a machine learning solution for predicting term deposit 
 ## Project Structure
 
 ```
-src/
-├── data/
-│   └── preprocessing.py    # Data preprocessing functions
-├── features/
-│   └── features.py        # Feature selection and engineering
-└── models/
-    ├── train.py           # Model training and evaluation
-    └── predict.py         # Prediction functions
+├── notebooks/             # Jupyter notebooks
+│   ├── Term_deposit_marketing.ipynb
+│   └── Term_Deposit_Marketing_Modeling.ipynb
+└── src/
+    ├── data/
+    │   └── preprocessing.py    # Data preprocessing functions
+    ├── features/
+    │   └── features.py        # Feature selection and engineering
+    └── models/
+        ├── train.py           # Model training and evaluation
+        └── predict.py         # Prediction functions
 ```
 
 ## Features
